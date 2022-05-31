@@ -9,16 +9,16 @@ digraph G {
     node [margin="0.03" penwidth="0.5" width=.1, height=.1];
     edge [arrowsize=.4 penwidth="0.3"]
 
-    node9 [margin="0" shape=none label=<<table border="0">
+    node11 [margin="0" shape=none label=<<table border="0">
+            
+            <tr>
+                    <td><img src="C:\Users\Tatsuya\AppData\Local\Temp/node11_21520.svg"/></td>
+            </tr>
+            </table>>]
+	node9 [margin="0" shape=none label=<<table border="0">
             
             <tr>
                     <td><img src="C:\Users\Tatsuya\AppData\Local\Temp/node9_21520.svg"/></td>
-            </tr>
-            </table>>]
-	node8 [margin="0" shape=none label=<<table border="0">
-            
-            <tr>
-                    <td><img src="C:\Users\Tatsuya\AppData\Local\Temp/node8_21520.svg"/></td>
             </tr>
             </table>>]
 	node7 [margin="0" shape=none label=<<table border="0">
@@ -81,28 +81,28 @@ digraph G {
                     <td><img src="C:\Users\Tatsuya\AppData\Local\Temp/node0_21520.svg"/></td>
             </tr>
             </table>>]
-    node9 -> leaf10 [penwidth=0.3 color="#444443" label=<>]
-	node9 -> leaf11 [penwidth=0.3 color="#444443" label=<>]
+    node11 -> leaf12 [penwidth=0.3 color="#444443" label=<>]
+	node11 -> leaf13 [penwidth=0.3 color="#444443" label=<>]
 	
             {
                 rank=same;
-                leaf10 -> leaf11 [style=invis]
+                leaf12 -> leaf13 [style=invis]
             }
             
-	node8 -> node9 [penwidth=0.3 color="#444443" label=<>]
-	node8 -> leaf12 [penwidth=0.3 color="#444443" label=<>]
+	node9 -> leaf10 [penwidth=0.3 color="#444443" label=<>]
+	node9 -> node11 [penwidth=0.3 color="#444443" label=<>]
 	
             {
                 rank=same;
-                node9 -> leaf12 [style=invis]
+                leaf10 -> node11 [style=invis]
             }
             
-	node7 -> node8 [penwidth=0.3 color="#444443" label=<>]
-	node7 -> leaf13 [penwidth=0.3 color="#444443" label=<>]
+	node7 -> leaf8 [penwidth=0.3 color="#444443" label=<>]
+	node7 -> node9 [penwidth=0.3 color="#444443" label=<>]
 	
             {
                 rank=same;
-                node8 -> leaf13 [style=invis]
+                leaf8 -> node9 [style=invis]
             }
             
 	node6 -> node7 [penwidth=0.3 color="#444443" label=<>]
@@ -189,16 +189,16 @@ digraph G {
                 <td><img src="C:\Users\Tatsuya\AppData\Local\Temp/leaf5_21520.svg"/></td>
         </tr>
         </table>>]
+	leaf8 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
+        
+        <tr>
+                <td><img src="C:\Users\Tatsuya\AppData\Local\Temp/leaf8_21520.svg"/></td>
+        </tr>
+        </table>>]
 	leaf10 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
         
         <tr>
                 <td><img src="C:\Users\Tatsuya\AppData\Local\Temp/leaf10_21520.svg"/></td>
-        </tr>
-        </table>>]
-	leaf11 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
-        
-        <tr>
-                <td><img src="C:\Users\Tatsuya\AppData\Local\Temp/leaf11_21520.svg"/></td>
         </tr>
         </table>>]
 	leaf12 [margin="0" shape=box penwidth="0" color="#444443" label=<<table border="0" CELLBORDER="0">
